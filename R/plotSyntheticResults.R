@@ -4,7 +4,7 @@
 ## description:   Plot results for concept drift detection with the
 ##                synthetic data (Section 4.1, Fig. 6)
 ######################################################################
-
+rm(list=ls())
 library(tikzDevice)
 setwd(dirname(sys.frame(1)$ofile))
 

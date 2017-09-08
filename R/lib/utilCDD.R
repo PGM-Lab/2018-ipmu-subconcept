@@ -1,3 +1,15 @@
+######################################################################
+## author:        Rafael Cabañas (rcabanas@decsai.ugr.es)
+## date:          8th September 2017
+## description:   Implementation of the pre-processing algorithm
+##                (Algorithm 1 in page 5 of the paper) and the 
+##                auxiliary functions. The algorithm transforms
+##                a data set with discrete attributes into an
+##                equivalent one with continuous attributes.
+##                The code for spliting data is also given.
+######################################################################
+
+
 
 getDomains <- function(inputdata) {
   
@@ -11,7 +23,7 @@ getDomains <- function(inputdata) {
   
 }
 
-binarizeData <- function(inputdata, dom, iclass, append, dropClass = FALSE) {
+preprocessing <- function(inputdata, dom, iclass, append, dropClass = FALSE) {
   
   
   databin = c()

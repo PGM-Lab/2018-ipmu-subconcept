@@ -70,7 +70,7 @@ inputdata  = read.arff(paste(c(datapath, "syntheticDiscrete.arff"), collapse="")
 
 # transformed data with class in multiple files
 
-databin = binarizeData(inputdata, getDomains(inputdata), iclass, FALSE)
+databin = preprocessing(inputdata, getDomains(inputdata), iclass, FALSE)
 prefixFile =  paste("synthetic_", fileSize/1000, "k", sep="") 
 splitAndSave(databin, datapath, prefixFile, fileSize)
 
@@ -78,7 +78,7 @@ splitAndSave(databin, datapath, prefixFile, fileSize)
 
 # transformed data without class in multiple files
 
-databin = binarizeData(inputdata, getDomains(inputdata), iclass, FALSE, dropClass = TRUE)
+databin = preprocessing(inputdata, getDomains(inputdata), iclass, FALSE, dropClass = TRUE)
 prefixFile =  paste("syntheticNoClass_", fileSize/1000, "k", sep="") 
 splitAndSave(databin, datapath, prefixFile, fileSize)
 
