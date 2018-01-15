@@ -1,8 +1,8 @@
 ######################################################################
 ## author:        Rafael Cabañas (rcabanas@decsai.ugr.es)
-## date:          8th September 2017
+## date:          15th January 2018
 ## description:   Generation of the synthetic data in arff format 
-##                (section 4.1 of the paper)
+##              
 ######################################################################
 
 library(RWeka)

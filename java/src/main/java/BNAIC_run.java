@@ -54,6 +54,27 @@ public class BNAIC_run {
 
 
 
+		//// Synthetic - Severe Concept Drift detection ////
+
+		Properties syntheticSev = new Properties();
+		syntheticSev.classPresent = false;
+		syntheticSev.linksFromClass = false;
+		syntheticSev.windowSize = 1000;
+		syntheticSev.filename = "../datasets/syntheticNoClass_2k_1.arff";
+		syntheticSev.nfiles = 6;
+
+		syntheticSev.map = Arrays.asList(
+				new int[][]{
+						new int[]{0},
+						new int[]{0},
+						new int[]{0},
+						new int[]{0},
+						new int[]{0},
+						new int[]{0},
+						new int[]{0},
+				}
+		);
+
 
 
 
@@ -98,6 +119,29 @@ public class BNAIC_run {
 
 
 
+		//// intrussion - Concept Drift detection ////
+
+		Properties intrussionSev = new Properties();
+		intrussionSev.classPresent = false;
+		intrussionSev.linksFromClass = false;
+		intrussionSev.windowSize = 1000;
+		intrussionSev.filename = "../datasets/kddcupNoClass_25k_1.arff";
+		intrussionSev.nfiles = 20;
+		intrussionSev.debug = true;
+
+
+		intrussionSev.map = IntStream.range(0,80) // 0,79
+				.mapToObj( i ->  new int[]{} )
+				.collect(Collectors.toList());
+
+
+
+		IntStream.range(0,80).forEach(
+			i -> intrussionSev.map.set(i, new int[]{0})
+		);
+
+
+
 
 
 		/// intrussion - Naive Bayes Learning ////
@@ -117,14 +161,15 @@ public class BNAIC_run {
 
 		/// Invoke experiments
 
-		run(synthetic);
-		run(intrussion);
+	//	run(synthetic);
+	//	run(intrussion);
 
 		// probabilities computation
-		computeNaiveBayes(syntheticNB);
-		computeNaiveBayes(intrussionNB);
+	//	computeNaiveBayes(syntheticNB);
+	//	computeNaiveBayes(intrussionNB);
 
 
+	run(intrussionSev);
 
 
 	}
@@ -179,6 +224,9 @@ public class BNAIC_run {
 						.setLinksFromClass(linksFromClass)
 						.setClassPresent(classPresent);
 
+
+		if(p.debug)
+			System.out.println(model.getDAG());
 
 
 
@@ -384,6 +432,7 @@ public class BNAIC_run {
 		List<int[]> map = null;
 
 		boolean update = true;
+		boolean debug = false;
 
 
 

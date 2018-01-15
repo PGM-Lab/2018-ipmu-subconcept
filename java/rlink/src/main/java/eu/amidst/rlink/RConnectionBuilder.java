@@ -88,14 +88,25 @@ public class RConnectionBuilder {
 		RConnectionBuilder.setDEBUG(true);
 		RConnection c = RConnectionBuilder.getInstance();
 
-		REXP out = c.eval("R.version.string");
+
+		REXP out = null;
+
+		out = c.eval("R.version.string");
+		System.out.println(out.asString());
+
+		out = c.eval("2+2");
 		System.out.println(out.asString());
 
 
-		RConnectionBuilder.reset();
+
+
+		//RConnectionBuilder.reset();
 		//c.close();
 
-		RConnection c2 = RConnectionBuilder.getInstance();
+	//	RConnection c2 = RConnectionBuilder.getInstance();
+
+
+
 
 
 	}

@@ -117,13 +117,13 @@ public class PlotSeries {
 		}
 
 
-		rcmd +="\n Y = cbind(";
+	/*	rcmd +="\n Y = cbind(";
 		for(int i=0; i<Yvalues.size()-1; i++){
 			rcmd += "Y"+i+", ";
 		}
 		rcmd += "Y"+(Yvalues.size()-1)+") ";
 		rcmd +="\n";
-
+*/
 
 
 /*		String outRcmd = "";
@@ -150,7 +150,7 @@ public class PlotSeries {
 
 		while(i!= -1) {
 
-			System.out.println(count);
+		//	System.out.println(count);
 			String s = rcmd.substring(0,i+1);
 			rcmd = rcmd.substring(i+1);
 

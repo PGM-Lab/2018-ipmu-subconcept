@@ -1,10 +1,10 @@
 ######################################################################
 ## author:        Rafael Cabañas (rcabanas@decsai.ugr.es)
-## date:          8th September 2017
+## date:          15th January 2018
 ## description:   Transforms the data set kddcup_discrete.arff with
 ##                discrete variables into an equivalent one with 
 ##                continuous variabels. 
-##                (section 4.2 of the paper)
+##             
 ######################################################################
 
 rm(list=ls())
