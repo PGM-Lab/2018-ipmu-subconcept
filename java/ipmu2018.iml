@@ -17,7 +17,6 @@
     <orderEntry type="library" name="Maven: org.apache.commons:commons-math:2.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-math3:3.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.3.2" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.7" level="project" />
     <orderEntry type="library" name="Maven: eu.amidst:core-dynamic:0.6.2" level="project" />
     <orderEntry type="library" name="Maven: eu.amidst:huginlink:0.6.2" level="project" />
     <orderEntry type="library" name="Maven: eu.amidst:flinklink:0.6.2" level="project" />
@@ -90,8 +89,8 @@
     <orderEntry type="library" name="Maven: org.apache.flink:flink-streaming-java_2.10:1.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.sling:org.apache.sling.commons.json:2.0.6" level="project" />
     <orderEntry type="library" name="Maven: eu.amidst:lda:0.6.2" level="project" />
-    <orderEntry type="module" module-name="rlink" />
     <orderEntry type="library" name="Maven: com.github.yannrichet:Rsession:1.8.3" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.12" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Maven: com.github.yannrichet:JMathArray:1.0" level="project" />
     <orderEntry type="library" name="Maven: gov.nist.math:jama:1.0.3" level="project" />
