@@ -30,7 +30,7 @@ Enter in the downloaded java folder:
 $ cd 2017-CDdiscrete-Code/java/
 ```
 
-The code for running the experiments is in the file **./src/main/java/BasicExample.java**. You can modify it as you want.
+The code for running the experiments is in the file **./src/main/java/impu_run.java**. You can modify it as you want.
 
 Compile and build the package:
 
