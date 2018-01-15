@@ -14,6 +14,16 @@ This repository contains the required material for the experimentation given in 
  - ![](https://raw.githubusercontent.com/rcabanasdepaz/files/master/img/gitfolder_small.png) **datasets**:  this folder contains the data sets used in the experimentation (i.e., the synthetic and intrusion data sets) which are provided in multiple .arff files. 
  - ![](https://raw.githubusercontent.com/rcabanasdepaz/files/master/img/gitfolder_small.png) **java**: maven project for running the experiments. This uses AMIDST 0.6.2. The code implementing the concept drift detector is given in this folder. For easily running the experiments shown in the paper, see the section below.
  
+ Citation:
+ 
+ ```
+@InProceedings{Cabanas2018virtualsubconcept,
+  author =    {Caba{\~n}as, R.  and Cano, A. and G{\'o}mez-Olmedo, M. and Masegosa, A.R and Moral, S.},
+  title =     {Virtual Subconcept Drift Detection in Discrete Streaming Data Using Probabilistic Graphical Models},
+  booktitle = {17th International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems. Cádiz, Spain, June 11th – 15th},
+  year =      {2018}
+}
+```
  
  ## Running the paper experiments
  
