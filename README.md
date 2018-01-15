@@ -1,6 +1,6 @@
 
 
-# Concept Drift Detection in Discrete Streaming Data Using Probabilistic Graphical Models
+# Virtual Subconcept Drift Detection in Discrete Streaming Data Using Probabilistic Graphical Models
 
 ## R. Cabañas, A. Cano, M. Gómez-Olmedo,  A. Masegosa, S. Moral
 
