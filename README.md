@@ -4,9 +4,10 @@
 
 ## R. Cabañas, A. Cano, M. Gómez-Olmedo,  A. Masegosa, S. Moral
 
-*Paper submitted to IPMU 2018 (under review)*
+*Paper presented at IPMU 2018*
 
-This repository contains the required material for the experimentation given in the paper.  In particular, it is organised as follows:
+
+This repository contains the required material for the experimentation given in the paper ([see full-text](https://link.springer.com/chapter/10.1007/978-3-319-91479-4_51)).  In particular, it is organised as follows:
 
  - ![](https://raw.githubusercontent.com/rcabanasdepaz/files/master/img/gitfolder_small.png) **R**: this folder contains all the R scripts for generating the data sets, modifying them, and creating the graphs with the results.
 
