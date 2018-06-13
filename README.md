@@ -18,12 +18,18 @@ This repository contains the required material for the experimentation given in 
  Citation:
  
  ```
-@InProceedings{Cabanas2018virtualsubconcept,
-  author =    {Caba{\~n}as, R.  and Cano, A. and G{\'o}mez-Olmedo, M. and Masegosa, A.R and Moral, S.},
-  title =     {Virtual Subconcept Drift Detection in Discrete Streaming Data Using Probabilistic Graphical Models},
-  booktitle = {17th International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems. Cádiz, Spain, June 11th – 15th},
-  year =      {2018}
+@InProceedings{CabanasIPMU18virtualsubconcept,
+author="Caba{\~{n}}as, Rafael and Cano, Andr{\'e}s and G{\'o}mez-Olmedo, Manuel and Masegosa, Andr{\'e}s R. and Moral, Seraf{\'i}n",
+title="Virtual Subconcept Drift Detection in Discrete Data Using Probabilistic Graphical Models",
+booktitle="Information Processing and Management of Uncertainty in Knowledge-Based Systems. Applications",
+year="2018",
+publisher="Springer International Publishing",
+address="Cham",
+pages="616--628",
+isbn="978-3-319-91479-4"
 }
+
+
 ```
  
  ## Running the paper experiments
